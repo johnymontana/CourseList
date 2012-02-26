@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5EEF9DD14FAE53B004F02EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EEF9DC14FAE53B004F02EE /* UIKit.framework */; };
+		C5EEF9DF14FAE53B004F02EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EEF9DE14FAE53B004F02EE /* Foundation.framework */; };
+		C5EEF9E114FAE53B004F02EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EEF9E014FAE53B004F02EE /* CoreGraphics.framework */; };
+		C5EEF9E714FAE53B004F02EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5EEF9E514FAE53B004F02EE /* InfoPlist.strings */; };
+		C5EEF9E914FAE53B004F02EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9E814FAE53B004F02EE /* main.m */; };
+		C5EEF9ED14FAE53B004F02EE /* CourseListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9EC14FAE53B004F02EE /* CourseListAppDelegate.m */; };
+		C5EEF9F014FAE53C004F02EE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EEF9EE14FAE53C004F02EE /* MainStoryboard.storyboard */; };
+		C5EEF9F314FAE53C004F02EE /* CourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9F214FAE53C004F02EE /* CourseListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C5EEF9D814FAE53B004F02EE /* CourseList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CourseList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EEF9DC14FAE53B004F02EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5EEF9DE14FAE53B004F02EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5EEF9E014FAE53B004F02EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5EEF9E414FAE53B004F02EE /* CourseList-Info.plist */ = {isa = PBXFileReference; path = "CourseList-Info.plist"; sourceTree = "<group>"; };
+		C5EEF9E614FAE53B004F02EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5EEF9E814FAE53B004F02EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5EEF9EA14FAE53B004F02EE /* CourseList-Prefix.pch */ = {isa = PBXFileReference; path = "CourseList-Prefix.pch"; sourceTree = "<group>"; };
+		C5EEF9EB14FAE53B004F02EE /* CourseListAppDelegate.h */ = {isa = PBXFileReference; path = CourseListAppDelegate.h; sourceTree = "<group>"; };
+		C5EEF9EC14FAE53B004F02EE /* CourseListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseListAppDelegate.m; sourceTree = "<group>"; };
+		C5EEF9EF14FAE53C004F02EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C5EEF9F114FAE53C004F02EE /* CourseListViewController.h */ = {isa = PBXFileReference; path = CourseListViewController.h; sourceTree = "<group>"; };
+		C5EEF9F214FAE53C004F02EE /* CourseListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5EEF9D514FAE53B004F02EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EEF9DD14FAE53B004F02EE /* UIKit.framework in Frameworks */,
+				C5EEF9DF14FAE53B004F02EE /* Foundation.framework in Frameworks */,
+				C5EEF9E114FAE53B004F02EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5EEF9CD14FAE53B004F02EE = {
+			isa = PBXGroup;
+			children = (
+				C5EEF9E214FAE53B004F02EE /* CourseList */,
+				C5EEF9DB14FAE53B004F02EE /* Frameworks */,
+				C5EEF9D914FAE53B004F02EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5EEF9D914FAE53B004F02EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5EEF9D814FAE53B004F02EE /* CourseList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5EEF9DB14FAE53B004F02EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5EEF9DC14FAE53B004F02EE /* UIKit.framework */,
+				C5EEF9DE14FAE53B004F02EE /* Foundation.framework */,
+				C5EEF9E014FAE53B004F02EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5EEF9E214FAE53B004F02EE /* CourseList */ = {
+			isa = PBXGroup;
+			children = (
+				C5EEF9EB14FAE53B004F02EE /* CourseListAppDelegate.h */,
+				C5EEF9EC14FAE53B004F02EE /* CourseListAppDelegate.m */,
+				C5EEF9EE14FAE53C004F02EE /* MainStoryboard.storyboard */,
+				C5EEF9F114FAE53C004F02EE /* CourseListViewController.h */,
+				C5EEF9F214FAE53C004F02EE /* CourseListViewController.m */,
+				C5EEF9E314FAE53B004F02EE /* Supporting Files */,
+			);
+			path = CourseList;
+			sourceTree = "<group>";
+		};
+		C5EEF9E314FAE53B004F02EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5EEF9E414FAE53B004F02EE /* CourseList-Info.plist */,
+				C5EEF9E514FAE53B004F02EE /* InfoPlist.strings */,
+				C5EEF9E814FAE53B004F02EE /* main.m */,
+				C5EEF9EA14FAE53B004F02EE /* CourseList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5EEF9D714FAE53B004F02EE /* CourseList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EEF9F614FAE53C004F02EE /* Build configuration list for PBXNativeTarget "CourseList" */;
+			buildPhases = (
+				C5EEF9D414FAE53B004F02EE /* Sources */,
+				C5EEF9D514FAE53B004F02EE /* Frameworks */,
+				C5EEF9D614FAE53B004F02EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CourseList;
+			productName = CourseList;
+			productReference = C5EEF9D814FAE53B004F02EE /* CourseList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5EEF9CF14FAE53B004F02EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C5EEF9D214FAE53B004F02EE /* Build configuration list for PBXProject "CourseList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5EEF9CD14FAE53B004F02EE;
+			productRefGroup = C5EEF9D914FAE53B004F02EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5EEF9D714FAE53B004F02EE /* CourseList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5EEF9D614FAE53B004F02EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EEF9E714FAE53B004F02EE /* InfoPlist.strings in Resources */,
+				C5EEF9F014FAE53C004F02EE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5EEF9D414FAE53B004F02EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EEF9E914FAE53B004F02EE /* main.m in Sources */,
+				C5EEF9ED14FAE53B004F02EE /* CourseListAppDelegate.m in Sources */,
+				C5EEF9F314FAE53C004F02EE /* CourseListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5EEF9E514FAE53B004F02EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5EEF9E614FAE53B004F02EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5EEF9EE14FAE53C004F02EE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5EEF9EF14FAE53C004F02EE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5EEF9F414FAE53C004F02EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5EEF9F514FAE53C004F02EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5EEF9F714FAE53C004F02EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourseList/CourseList-Prefix.pch";
+				INFOPLIST_FILE = "CourseList/CourseList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5EEF9F814FAE53C004F02EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CourseList/CourseList-Prefix.pch";
+				INFOPLIST_FILE = "CourseList/CourseList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5EEF9D214FAE53B004F02EE /* Build configuration list for PBXProject "CourseList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EEF9F414FAE53C004F02EE /* Debug */,
+				C5EEF9F514FAE53C004F02EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5EEF9F614FAE53C004F02EE /* Build configuration list for PBXNativeTarget "CourseList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EEF9F714FAE53C004F02EE /* Debug */,
+				C5EEF9F814FAE53C004F02EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5EEF9CF14FAE53B004F02EE /* Project object */;
+}
