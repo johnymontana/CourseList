@@ -7,7 +7,8 @@
 //
 
 #import "CourseListViewController.h"
-
+#import "ViewCourseListTableViewController.h"
+//#import "ViewCourseListTableViewController.m"
 @implementation CourseListViewController
 
 - (void)didReceiveMemoryWarning
@@ -15,7 +16,14 @@
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
 }
+#define COURSES_KEY @"CourseList.Favorites"
 
+- (IBAction)clearCourseList {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSMutableArray *clear = [NSMutableArray array];
+    [defaults setObject:clear forKey:COURSES_KEY];
+    [defaults synchronize];
+}
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -55,6 +63,16 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"DirectToViewCourses"])
+    {
+        
+       // NSArray *viewCourses = [[NSUserDefaults standardUserDefaults] objectForKey:COURSES_KEY];
+        [segue.destinationViewController setViewCourses];
+    }
 }
 
 @end

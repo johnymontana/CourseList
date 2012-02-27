@@ -15,6 +15,8 @@
 		C5EEF9ED14FAE53B004F02EE /* CourseListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9EC14FAE53B004F02EE /* CourseListAppDelegate.m */; };
 		C5EEF9F014FAE53C004F02EE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EEF9EE14FAE53C004F02EE /* MainStoryboard.storyboard */; };
 		C5EEF9F314FAE53C004F02EE /* CourseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9F214FAE53C004F02EE /* CourseListViewController.m */; };
+		C5EEF9FB14FAE7E0004F02EE /* BuildCourseListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9FA14FAE7E0004F02EE /* BuildCourseListController.m */; };
+		C5EEF9FE14FAE8E6004F02EE /* ViewCourseListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEF9FD14FAE8E6004F02EE /* ViewCourseListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		C5EEF9DC14FAE53B004F02EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C5EEF9DE14FAE53B004F02EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5EEF9E014FAE53B004F02EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C5EEF9E414FAE53B004F02EE /* CourseList-Info.plist */ = {isa = PBXFileReference; path = "CourseList-Info.plist"; sourceTree = "<group>"; };
+		C5EEF9E414FAE53B004F02EE /* CourseList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CourseList-Info.plist"; sourceTree = "<group>"; };
 		C5EEF9E614FAE53B004F02EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5EEF9E814FAE53B004F02EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C5EEF9EA14FAE53B004F02EE /* CourseList-Prefix.pch */ = {isa = PBXFileReference; path = "CourseList-Prefix.pch"; sourceTree = "<group>"; };
-		C5EEF9EB14FAE53B004F02EE /* CourseListAppDelegate.h */ = {isa = PBXFileReference; path = CourseListAppDelegate.h; sourceTree = "<group>"; };
+		C5EEF9EA14FAE53B004F02EE /* CourseList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CourseList-Prefix.pch"; sourceTree = "<group>"; };
+		C5EEF9EB14FAE53B004F02EE /* CourseListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseListAppDelegate.h; sourceTree = "<group>"; };
 		C5EEF9EC14FAE53B004F02EE /* CourseListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseListAppDelegate.m; sourceTree = "<group>"; };
 		C5EEF9EF14FAE53C004F02EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C5EEF9F114FAE53C004F02EE /* CourseListViewController.h */ = {isa = PBXFileReference; path = CourseListViewController.h; sourceTree = "<group>"; };
+		C5EEF9F114FAE53C004F02EE /* CourseListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseListViewController.h; sourceTree = "<group>"; };
 		C5EEF9F214FAE53C004F02EE /* CourseListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseListViewController.m; sourceTree = "<group>"; };
+		C5EEF9F914FAE7E0004F02EE /* BuildCourseListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildCourseListController.h; sourceTree = "<group>"; };
+		C5EEF9FA14FAE7E0004F02EE /* BuildCourseListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildCourseListController.m; sourceTree = "<group>"; };
+		C5EEF9FC14FAE8E6004F02EE /* ViewCourseListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCourseListTableViewController.h; sourceTree = "<group>"; };
+		C5EEF9FD14FAE8E6004F02EE /* ViewCourseListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCourseListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,10 @@
 				C5EEF9EB14FAE53B004F02EE /* CourseListAppDelegate.h */,
 				C5EEF9EC14FAE53B004F02EE /* CourseListAppDelegate.m */,
 				C5EEF9EE14FAE53C004F02EE /* MainStoryboard.storyboard */,
+				C5EEF9FC14FAE8E6004F02EE /* ViewCourseListTableViewController.h */,
+				C5EEF9FD14FAE8E6004F02EE /* ViewCourseListTableViewController.m */,
+				C5EEF9F914FAE7E0004F02EE /* BuildCourseListController.h */,
+				C5EEF9FA14FAE7E0004F02EE /* BuildCourseListController.m */,
 				C5EEF9F114FAE53C004F02EE /* CourseListViewController.h */,
 				C5EEF9F214FAE53C004F02EE /* CourseListViewController.m */,
 				C5EEF9E314FAE53B004F02EE /* Supporting Files */,
@@ -163,6 +173,8 @@
 				C5EEF9E914FAE53B004F02EE /* main.m in Sources */,
 				C5EEF9ED14FAE53B004F02EE /* CourseListAppDelegate.m in Sources */,
 				C5EEF9F314FAE53C004F02EE /* CourseListViewController.m in Sources */,
+				C5EEF9FB14FAE7E0004F02EE /* BuildCourseListController.m in Sources */,
+				C5EEF9FE14FAE8E6004F02EE /* ViewCourseListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
